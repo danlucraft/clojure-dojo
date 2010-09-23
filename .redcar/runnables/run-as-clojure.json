@@ -1,0 +1,10 @@
+{
+  "file_runners":[
+    {
+      "regex":  ".*.clj",
+      "name":   "Run as clojure",
+      "command":"java -server -cp ~/.redcar/assets/clojure.jar:~/.redcar/assets/clojure-contrib.jar:. clojure.main __PATH__",
+      "type":   "script/clojure"
+    }
+  ]
+}
